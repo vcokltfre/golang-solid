@@ -1,0 +1,7 @@
+#!/bin/bash
+cd web
+npm i
+npm run build
+cd ..
+rm -rf ./src/frontend/data/dist
+cp -r ./web/dist ./src/frontend/data/dist

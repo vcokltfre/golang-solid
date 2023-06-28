@@ -1,0 +1,3 @@
+#!/bin/bash
+sh scripts/build-web
+go build -o $1 main.go
